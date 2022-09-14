@@ -53,6 +53,10 @@ public Contact(String firstName, String lastName, String address, String city, S
         this.state = state;
     }
 
+    public int getZipCode() {
+        return zipCode;
+    }
+
     public void setZipCode(int zipCode) {
         this.zipCode = zipCode;
     }
